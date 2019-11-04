@@ -51,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/数据预处理/异常点处理/异常点识别.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="510">
-                <caret line="34" column="31" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="31" />
+              <first_editor relative-caret-position="570">
+                <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -667,8 +667,8 @@
     <entry file="file://$PROJECT_DIR$/数据预处理/异常点处理/异常点识别.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="510">
-            <caret line="34" column="31" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="31" />
+          <first_editor relative-caret-position="570">
+            <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
             <folding />
           </first_editor>
           <second_editor />
