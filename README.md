@@ -1,6 +1,6 @@
 # Reflection_Summary
 
-我觉得，一个合格的算法工程师，需要熟练掌握：
+我觉得，一个合格的算法工程师，需要**熟练**掌握：
 - [扎实的数据结构能力](https://github.com/sladesha/LeetCode)
 - [大量的机器学习实操经验](https://github.com/sladesha/machine_learning)
 - [大量的深度学习项目经验](https://github.com/sladesha/deep_learning)
