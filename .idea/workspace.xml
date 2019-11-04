@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数学/期望、方差、标准差和协方差.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/基础概念/方差与偏差/方差与偏差.md" afterPath="$PROJECT_DIR$/基础概念/方差与偏差/方差与偏差.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
@@ -53,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/基础概念/方差与偏差/方差与偏差.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="505">
-                <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+              <first_editor relative-caret-position="385">
+                <caret line="84" column="46" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -586,8 +584,8 @@
     <entry file="file://$PROJECT_DIR$/基础概念/方差与偏差/方差与偏差.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="505">
-            <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+          <first_editor relative-caret-position="385">
+            <caret line="84" column="46" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
             <folding />
           </first_editor>
           <second_editor />
