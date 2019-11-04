@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/数学/期望、方差、标准差和协方差.md" afterPath="$PROJECT_DIR$/数学/数据质量/期望、方差、标准差和协方差.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
@@ -37,8 +36,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+              <first_editor relative-caret-position="375">
+                <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -599,8 +598,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <first_editor relative-caret-position="375">
+            <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
             <folding />
           </first_editor>
           <second_editor>
