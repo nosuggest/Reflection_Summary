@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/基础概念/方差与偏差/方差与偏差.md" afterPath="$PROJECT_DIR$/基础概念/方差与偏差/方差与偏差.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="255">
-                <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+                <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -615,7 +614,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="255">
-            <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
             <folding />
           </first_editor>
           <second_editor>
