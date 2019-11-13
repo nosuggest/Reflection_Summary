@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" afterPath="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
@@ -62,8 +63,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="535">
-                <caret line="91" column="195" selection-start-line="91" selection-start-column="195" selection-end-line="91" selection-end-column="195" />
+              <first_editor relative-caret-position="580">
+                <caret line="91" column="105" selection-start-line="91" selection-start-column="105" selection-end-line="91" selection-end-column="105" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -940,8 +941,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="535">
-            <caret line="91" column="195" selection-start-line="91" selection-start-column="195" selection-end-line="91" selection-end-column="195" />
+          <first_editor relative-caret-position="580">
+            <caret line="91" column="105" selection-start-line="91" selection-start-column="105" selection-end-line="91" selection-end-column="105" />
             <folding />
           </first_editor>
           <second_editor />
