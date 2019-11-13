@@ -50,5 +50,11 @@
 
 此处就用到了全概率公式推导，有可能会回到[写出全概率公式&贝叶斯公式](基础概念/先验概率和后验概率/先验概率和后验概率.md#L96)的问题中
 
+# LR为什么使用sigmoid函数作为激活函数？其他函数不行吗？
+- 思路一：lr的前提假设就是几率odds满足线性回归，odds又为正负样本的log比，参见`满足什么样条件的数据用LR最好？`中第三点公式的展开
+- 思路二：Exponential model 的形式是这样的：假设第i个特征对第k类的贡献是![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wmq11x6zj300s00f3y9.jpg)，则数据点![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wmqpotqfj302700imwx.jpg)属于第k类的概率正比于![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wmrp4qv4j305b00i0sj.jpg)。
+    - 二分类上：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wmsc1vfkj30jm036wet.jpg)
+    - 化简即为sigmoid
+    
 # 我的总结：
 - 逻辑回归假设观测样本中该特征在正负类中出现结果服从伯努利分布，通过极大化似然函数的方法，运用梯度下降来求解参数，来达到将数据二分类的目的
