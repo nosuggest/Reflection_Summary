@@ -89,7 +89,7 @@
     - 如何将将W*表示成β的形式带到我们最佳化的问题
 
 # LR中的L1/L2正则项是啥？
-- L1正则项：为模型加了一个先验知识，未知参数w满足拉普拉斯分布，![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wp6wwlbzj303400ygle.jpg) ,u为0。在lr模型损失函数中新增了![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wpg57x1gj301g0133ya.jpg)项
+- L1正则项：为模型加了一个先验知识，未知参数w满足拉普拉斯分布，![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wp6wwlbzj303400ygle.jpg) ,u为0。在lr模型损失函数中新增了![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wpimx0juj301g0133ya.jpg)项
 - L2正则项：为模型加了一个先验知识，未知参数w满足0均值正太分布，![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wpayd8u6j307k0190sl.jpg),u为0。在lr模型损失函数中新增了![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wpet47boj3011014mwx.jpg)项
     
 # 我的总结
