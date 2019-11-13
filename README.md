@@ -1,6 +1,6 @@
 # Reflection_Summary
 
-我觉得，一个合格的算法工程师，需要**熟练**掌握：
+我觉得，一个合格的算法工程师，需要掌握：
 - [扎实的数据结构能力](https://github.com/sladesha/LeetCode)
 - [大量的机器学习实操经验](https://github.com/sladesha/machine_learning)
 - [大量的深度学习项目经验](https://github.com/sladesha/deep_learning)
@@ -14,8 +14,9 @@
 - [了解C++](https://github.com/sladesha/sladeRode3)
 - [总结表述沉淀能力](http://www.shataowei.com)
 
-以及以下的算法基础知识。以下我总结了我作为面试管的提问，以及陪伴实习生同学参加2020届校招面试各类算法问题及个人理解的答案，希望大家都面试顺利。
-各种解答均为我的理解何看法，一定有存疑和不完善的地方，欢迎大家补充和质疑。另外，特别感谢，@[tcandzq](https://github.com/tcandzq)提供的各个大厂的校招机会。
+1. 以及以下的算法基础知识。以下我总结了我作为面试管的提问，以及陪伴实习生同学@[tcandzq](https://github.com/tcandzq)参加2020届校招面试各类算法问题及个人理解的答案，希望大家都面试顺利。
+    1.1 另外，恭喜[tcandzq](https://github.com/tcandzq)收割到腾讯UGC，阿里算法中台，头条广告推荐offer，:clap:
+2. 各种解答均为我的理解何看法，一定有存疑和不完善的地方，欢迎大家补充和质疑。
 
 ***
 # 基础概念
