@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数学/导数/导数.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数学/微分中值定理/微分中值定理.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -38,8 +38,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="175">
-                <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+              <first_editor relative-caret-position="280">
+                <caret line="78" column="8" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -49,36 +49,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="导数.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数学/导数/导数.md">
+      <file leaf-file-name="微分中值定理.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数学/微分中值定理/微分中值定理.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="18" column="8" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="8" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="平面曲线的切线和法线.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数学/平面曲线的切线和法线/平面曲线的切线和法线.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="8" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -126,6 +102,7 @@
         <option value="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" />
         <option value="$PROJECT_DIR$/数学/平面曲线的切线和法线/平面曲线的切线和法线.md" />
         <option value="$PROJECT_DIR$/数学/导数/导数.md" />
+        <option value="$PROJECT_DIR$/数学/微分中值定理/微分中值定理.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -299,7 +276,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="导数" />
+              <option name="myItemId" value="微分中值定理" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1030,6 +1007,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/数学/导数/导数.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="8" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/数学/平面曲线的切线和法线/平面曲线的切线和法线.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1052,11 +1051,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数学/导数/导数.md">
+    <entry file="file://$PROJECT_DIR$/数学/微分中值定理/微分中值定理.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="8" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="8" />
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="8" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1086,8 +1085,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="175">
-            <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+          <first_editor relative-caret-position="280">
+            <caret line="78" column="8" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor>
