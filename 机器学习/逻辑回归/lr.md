@@ -55,13 +55,15 @@
 - 思路二：Exponential model 的形式是这样的：假设第i个特征对第k类的贡献是![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wmq11x6zj300s00f3y9.jpg)，则数据点![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wmqpotqfj302700imwx.jpg)属于第k类的概率正比于![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wmrp4qv4j305b00i0sj.jpg)。
     - 二分类上：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wmsc1vfkj30jm036wet.jpg)
     - 化简即为sigmoid
+- 思路三：glm有满足指数族的性质，而作为lr作为y满足伯努利分布的的线性条件，伯努利分布的指数族形式就是sigmoid，或者也叫连接函数
 
 # Sigmoid函数到底起了什么作用？
 - 数据规约：\[0,1]
 - 线性回归在全量数据上的敏感度一致，sigmoid在分界点0.5处更加敏感    
+- sigmoid在逻辑回归的参数更新中也不起影响，避免了更新速度不稳定的问题
 
 # LR为什么要使用极大似然函数，交互熵作为损失函数？那为什么不选平方损失函数的呢
-- 极大似然保证训练样本出现的概率最大，数据量越大越符合真实分布，拟合模型越鲁棒
+- 前提假设为样本出现概率最大下的问题，最大熵模型的展现形式。极大似然保证训练样本出现的概率最大，数据量越大越符合真实分布，拟合模型越鲁棒
 - 更新速度只与真实的x和y相关，与激活函数无关，更新平稳
     - 比如mse就会导致更新速度与激活函数sigmoid挂钩，而sigmoid函数在定义域内的梯度大小都比较小(0.25>x)，不利于快速更新
     - mse下的lr损失函数非凸，难以得到解析解
