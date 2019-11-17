@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" afterPath="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
@@ -52,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/机器学习/逻辑回归/lr.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="414">
-                <caret line="190" column="55" selection-start-line="190" selection-start-column="2" selection-end-line="190" selection-end-column="55" />
+              <first_editor relative-caret-position="429">
+                <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -102,8 +101,8 @@
         <option value="$PROJECT_DIR$/数学/微分中值定理/微分中值定理.md" />
         <option value="$PROJECT_DIR$/数学/泰勒公式/泰勒公式.md" />
         <option value="$PROJECT_DIR$/数据预处理/特征提取/数据变换.md" />
-        <option value="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" />
       </list>
     </option>
   </component>
@@ -1196,8 +1195,8 @@
     <entry file="file://$PROJECT_DIR$/机器学习/逻辑回归/lr.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="414">
-            <caret line="190" column="55" selection-start-line="190" selection-start-column="2" selection-end-line="190" selection-end-column="55" />
+          <first_editor relative-caret-position="429">
+            <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
             <folding />
           </first_editor>
           <second_editor />

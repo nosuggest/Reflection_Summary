@@ -55,6 +55,7 @@
 - 思路二：Exponential model 的形式是这样的：假设第i个特征对第k类的贡献是![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wmq11x6zj300s00f3y9.jpg)，则数据点![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wmqpotqfj302700imwx.jpg)属于第k类的概率正比于![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wmrp4qv4j305b00i0sj.jpg)。
     - 二分类上：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8wmsc1vfkj30jm036wet.jpg)
     - 化简即为sigmoid
+    - 以上思路源自：PRML（Pattern Recognition and Machine Learning）
 - 思路三：glm有满足指数族的性质，而作为lr作为y满足伯努利分布的的线性条件，伯努利分布的指数族形式就是sigmoid，或者也叫连接函数
 
 # Sigmoid函数到底起了什么作用？
