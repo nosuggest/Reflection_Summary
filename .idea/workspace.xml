@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据预处理/特征提取/数据变换.md" afterPath="$PROJECT_DIR$/数据预处理/特征提取/数据变换.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" afterPath="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +37,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="340">
-                <caret line="135" column="21" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="25" />
+              <first_editor relative-caret-position="520">
+                <caret line="155" column="34" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -47,36 +48,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="数据变换.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数据预处理/特征提取/数据变换.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lr.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lr.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/机器学习/逻辑回归/lr.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="400">
-                <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <first_editor relative-caret-position="414">
+                <caret line="190" column="55" selection-start-line="190" selection-start-column="2" selection-end-line="190" selection-end-column="55" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -124,9 +101,9 @@
         <option value="$PROJECT_DIR$/数学/导数/导数.md" />
         <option value="$PROJECT_DIR$/数学/微分中值定理/微分中值定理.md" />
         <option value="$PROJECT_DIR$/数学/泰勒公式/泰勒公式.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" />
         <option value="$PROJECT_DIR$/数据预处理/特征提取/数据变换.md" />
+        <option value="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -348,7 +325,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../YMM/git/cangjie/CargoNameIdentifyV3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v9.2.0/bin/node" />
   </component>
@@ -1172,11 +1149,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/逻辑回归/lr.md">
+    <entry file="file://$PROJECT_DIR$/数据预处理/特征提取/数据变换.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="400">
-            <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <first_editor relative-caret-position="165">
+            <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1206,8 +1183,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="340">
-            <caret line="135" column="21" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="25" />
+          <first_editor relative-caret-position="520">
+            <caret line="155" column="34" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
             <folding />
           </first_editor>
           <second_editor>
@@ -1216,11 +1193,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据预处理/特征提取/数据变换.md">
+    <entry file="file://$PROJECT_DIR$/机器学习/逻辑回归/lr.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <first_editor relative-caret-position="414">
+            <caret line="190" column="55" selection-start-line="190" selection-start-column="2" selection-end-line="190" selection-end-column="55" />
             <folding />
           </first_editor>
           <second_editor />

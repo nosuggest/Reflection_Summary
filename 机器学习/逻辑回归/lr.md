@@ -169,6 +169,29 @@ lr的output是彼此之间相对谁的可能性更高，而不是概率，概率
     - 只能线性可分
     - 数据不平衡需要人为处理，weight_class/[有哪些常见的采样方法](https://github.com/sladesha/Reflection_Summary/blob/master/数据预处理/数据平衡/采样.md#L11)
     - 模型上限较低
+
+# 除了做分类，你还会用LR做什么？
+特征筛选，特征的系数决定该特征的重要性
+
+# 你有用过sklearn中的lr么？你用的是哪个包？
+sklearn.linear_model.LogisticRegression
+
+# 看过源码么？为什么去看？
+- 看部分参数的解释
+    - 比如dual、weight_class中的1:0还是0:1比
+    - 比如输出值的形式，输出的格式
+
+# 谈一下sklearn.linear_model.LogisticRegression中的penalty和solver的选择？
+- penalty是正则化，solver是函数优化方法
+- penalty包含l1和l2两种，solver包含坐标轴下降、牛顿、随机梯度下降等
+- 牛顿法，拟牛顿法和随机梯度下降都不能使用l1，因为他们都需要损失函数的一阶二阶导数，而坐标轴下降法不限制这些，l1和l2都可行。
+- l1和l2选择参考上面讲的正则化部分
+- 随机梯度下降在数据较少的时候最好别用，但是速度比较快。默认的是坐标轴下降法
+
+# 谈一下sklearn.linear_model.LogisticRegression中对多分类是怎么处理的？
+- 首先，决定是否为多分类的参数是multi_class
+- 在二分类的时候，multi和ovr和auto都是一样的
+- 在真正执行multi的时候，会通过LabelEncoder把目标值y离散化，不停的选择两类去做ovr的计算直到取完所有情况    
     
 # 我的总结
 - 逻辑回归假设观测样本中该特征在正负类中出现结果服从伯努利分布，通过极大化似然函数的方法，运用梯度下降来求解参数，来达到将数据二分类的目的

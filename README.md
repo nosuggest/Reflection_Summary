@@ -148,6 +148,11 @@ trick3:针对单点细问的时候，多结合实际项目中的例子，概念+
     - [LR对比万物](机器学习/逻辑回归/lr.md#L164)
     - [LR梯度下降方法](机器学习/逻辑回归/lr.md#L164)
     - [LR的优缺点](机器学习/逻辑回归/lr.md#L164)
+    - [除了做分类，你还会用LR做什么](机器学习/逻辑回归/lr.md#L164)
+    - [你有用过sklearn中的lr么？你用的是哪个包](机器学习/逻辑回归/lr.md#L164)
+    - [看过源码么？为什么去看](机器学习/逻辑回归/lr.md#L164)
+    - [谈一下sklearn.linear_model.LogisticRegression中的penalty和solver的选择](机器学习/逻辑回归/lr.md#L164)
+    - [谈一下sklearn.linear_model.LogisticRegression中对多分类是怎么处理的](机器学习/逻辑回归/lr.md#L164)
     - [我的总结](机器学习/逻辑回归/lr.md#L164)
 - 决策树
 - GBDT
