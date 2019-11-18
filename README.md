@@ -172,6 +172,8 @@
     - [谈一下sklearn.linear_model.LogisticRegression中对多分类是怎么处理的](机器学习/逻辑回归/lr.md#L164)
     - [我的总结](机器学习/逻辑回归/lr.md#L164)
 - 决策树
+    - [常见决策树](机器学习/决策树/决策树.md#L164)
+    - [简述决策树构建过程](机器学习/决策树/决策树.md#L164)
 - GBDT
 - FM/FFM
 - SVM
