@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数学/概率论/概率论.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
@@ -36,8 +38,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <first_editor relative-caret-position="555">
+                <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -47,12 +49,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="矩阵.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数学/矩阵/矩阵.md">
+      <file leaf-file-name="概率论.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数学/概率论/概率论.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="210">
-                <caret line="14" column="5" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="5" />
+              <first_editor relative-caret-position="915">
+                <caret line="61" column="7" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="7" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -106,6 +108,7 @@
         <option value="$PROJECT_DIR$/数学/概率密度分布/概率密度分布.md" />
         <option value="$PROJECT_DIR$/数学/数据质量/期望、方差、标准差和协方差.md" />
         <option value="$PROJECT_DIR$/数学/矩阵/矩阵.md" />
+        <option value="$PROJECT_DIR$/数学/概率论/概率论.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -216,24 +219,6 @@
               <option name="myItemId" value="数学" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="矩阵" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Reflection_Summary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Reflection_Summary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="数学" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -249,25 +234,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="概率密度分布" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Reflection_Summary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Reflection_Summary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="数学" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="数据质量" />
+              <option name="myItemId" value="概率论" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1237,8 +1204,30 @@
     <entry file="file://$PROJECT_DIR$/数学/矩阵/矩阵.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="14" column="5" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="5" />
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数学/概率论/概率论.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="915">
+            <caret line="61" column="7" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="7" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1268,8 +1257,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <first_editor relative-caret-position="555">
+            <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
             <folding />
           </first_editor>
           <second_editor>
