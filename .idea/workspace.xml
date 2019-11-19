@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/机器学习/支持向量机/支持向量机.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/机器学习/支持向量机/支持向量机.md" afterPath="$PROJECT_DIR$/机器学习/支持向量机/支持向量机.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/机器学习/支持向量机/支持向量机.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1785">
-                <caret line="119" column="23" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="23" />
+              <first_editor relative-caret-position="400">
+                <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -114,8 +112,8 @@
         <option value="$PROJECT_DIR$/机器学习/随机森林/随机森林.md" />
         <option value="$PROJECT_DIR$/机器学习/线性回归/线性回归.md" />
         <option value="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" />
-        <option value="$PROJECT_DIR$/机器学习/支持向量机/支持向量机.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/机器学习/支持向量机/支持向量机.md" />
       </list>
     </option>
   </component>
@@ -1404,8 +1402,8 @@
     <entry file="file://$PROJECT_DIR$/机器学习/支持向量机/支持向量机.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1785">
-            <caret line="119" column="23" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="23" />
+          <first_editor relative-caret-position="400">
+            <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />
