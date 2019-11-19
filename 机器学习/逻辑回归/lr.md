@@ -1,3 +1,10 @@
+# logistic分布函数和密度函数，手绘大概的图像
+- 分布函数：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93b9whhwuj306z01amwz.jpg)
+    - 图像：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93be0qj86j30io0c2q4k.jpg)
+- 密度函数：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93bdnikzbj306e01pjr8.jpg)
+    - 图像：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93beecqoaj30i20c63zw.jpg)
+- 其中，μ表示位置参数，γ为形状参数。**logistic分布比正太分布有更长的尾部且波峰更尖锐**
+
 # LR推导，基础5连问
 - 基础公式
     - f(x) = wx + b
@@ -24,6 +31,11 @@
     - 损失函数求偏导，更新θ
     - θj+1 = θj - ∆·∂Loss/∂θ =θj - ∆·1/m·∑x·(h-y)
         - ∆为学习率
+
+# 梯度下降如何并行化？
+- 首先需要理解梯度下降的更新公式：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93cn8ok1fj307a01ft8k.jpg)
+    - ∑处的并行，不同样本在不同机器上进行计算，计算完再进行合并
+    - ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93cnjne2dj303200ia9u.jpg)处并行，把xi和Wi拆分成块分别计算后合并
 
 # LR明明是分类模型为什么叫回归？
 观测样本中该特征在正负类中出现概率的比值满足线性条件，用的是线性拟合比率值，所以叫回归
@@ -57,6 +69,11 @@
     - 化简即为sigmoid
     - 以上思路源自：PRML（Pattern Recognition and Machine Learning）
 - 思路三：glm有满足指数族的性质，而作为lr作为y满足伯努利分布的的线性条件，伯努利分布的指数族形式就是sigmoid，或者也叫连接函数
+
+# 利用几率odds的意义在哪？
+- 直接对分类模型进行建模，前提假设为非常弱的指定类别上自变量的条件分布满足高斯
+- 由预测0/1的类别扩展到了预测0-1的概率值
+- 任意阶可导的优秀性质    
 
 # Sigmoid函数到底起了什么作用？
 - 数据规约：\[0,1]
