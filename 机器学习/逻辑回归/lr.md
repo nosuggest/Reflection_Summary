@@ -35,7 +35,7 @@
 # 梯度下降如何并行化？
 - 首先需要理解梯度下降的更新公式：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93cn8ok1fj307a01ft8k.jpg)
     - ∑处的并行，不同样本在不同机器上进行计算，计算完再进行合并
-    - ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93cnjne2dj303200ia9u.jpg)处并行，把xi和Wi拆分成块分别计算后合并
+    - ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93cnjne2dj303200ia9u.jpg)处并行，把![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93csl2l0pj301400ia9t.jpg)内的xi和Wi拆分成块分别计算后合并，再把外层![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93cnjne2dj303200ia9u.jpg)同样拆分成若干块进行计算
 
 # LR明明是分类模型为什么叫回归？
 观测样本中该特征在正负类中出现概率的比值满足线性条件，用的是线性拟合比率值，所以叫回归
