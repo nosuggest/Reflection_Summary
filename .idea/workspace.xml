@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习/集成学习/LightGBM.md" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/机器学习/集成学习/LightGBM.md" afterPath="$PROJECT_DIR$/机器学习/集成学习/LightGBM.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -37,12 +35,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LightGBM.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LightGBM.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/机器学习/集成学习/LightGBM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="351">
-                <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="12" />
+              <first_editor relative-caret-position="297">
+                <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -90,8 +88,8 @@
         <option value="$PROJECT_DIR$/机器学习/决策树/决策树.md" />
         <option value="$PROJECT_DIR$/机器学习/贝叶斯/贝叶斯.md" />
         <option value="$PROJECT_DIR$/机器学习/随机森林/随机森林.md" />
-        <option value="$PROJECT_DIR$/机器学习/集成学习/LightGBM.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/机器学习/集成学习/LightGBM.md" />
       </list>
     </option>
   </component>
@@ -1030,22 +1028,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/集成学习/LightGBM.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="351">
-            <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="12" />
+          <first_editor relative-caret-position="513">
+            <caret line="247" column="32" lean-forward="true" selection-start-line="247" selection-start-column="32" selection-end-line="247" selection-end-column="32" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/机器学习/集成学习/LightGBM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="513">
-            <caret line="247" column="32" lean-forward="true" selection-start-line="247" selection-start-column="32" selection-end-line="247" selection-end-column="32" />
+          <first_editor relative-caret-position="297">
+            <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             <folding />
           </first_editor>
           <second_editor />
