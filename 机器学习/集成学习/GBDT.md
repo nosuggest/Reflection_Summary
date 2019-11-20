@@ -45,7 +45,7 @@ Cart tree，但是都是回归树
 
 当loss函数为均方误差![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94ajgymkuj303w011jr6.jpg)，gbdt中的残差的负梯度的结果y-H(x)正好与boostingtree的拟合残差一致
 
-# 如何用残差的负梯度实现gbdt？
+# 如何用损失函数的负梯度实现gbdt？
 - 利用![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94afa5h1lj3060017mx0.jpg)可以计算得到x对应的损失函数的负梯度![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94ars964uj301h00ijr5.jpg),据此我们可以构造出第t棵回归树，其对应的叶子结点区域![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94atb0k7zj300p00i3y9.jpg)j为叶子结点位置
 - 构建回归树的过程中，需要考虑找到特征A中最合适的切分点，使得切分后的数据集D1和D2的均方误差最小![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94b0klia2j30ee017aa0.jpg)
 - 针对每一个叶子节点里的样本，我们求出使损失函数最小，也就是拟合叶子节点最好的输出值𝑐𝑡𝑗,![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94b5ffnyoj308g0173yd.jpg)
@@ -54,13 +54,13 @@ Cart tree，但是都是回归树
     - 这样就完整的构造出一棵树：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94bfr5cn5j303d01kjr6.jpg)
 - 本轮最终得到的强学习器的表达式如下：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94binx5prj307o01k0sl.jpg)
 
-# 拟合残差的负梯度为什么是可行的？
+# 拟合损失函数的负梯度为什么是可行的？
 - 泰勒展开的一阶形式：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94h6rkexqj305x00ijr7.jpg)
 - m轮树模型可以写成：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94h8zovulj305v00iglf.jpg)
     - 对![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94hak9e26j303n00idfm.jpg)进行泰勒展开：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94hd5sz8vj309400kglg.jpg),其中m-1轮对残差梯度为![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94hey2xksj3052017a9w.jpg)
 - 我们拟合了残差的负梯度，![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94hi3epnaj302r00kmwx.jpg),所以![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94hd5sz8vj309400kglg.jpg)内会让损失向下降对方向前进
 
-# 即便拟合负梯度是可行的，为什么不直接拟合残差？ 拟合负梯度好在哪里？
+# 即便拟合损失函数负梯度是可行的，为什么不直接拟合残差？ 拟合负梯度好在哪里？
 - 前者不用残差的负梯度而是使用残差，是全局最优值，后者使用的是 局部最优方向（负梯度）*步长（𝛽）
 - 依赖残差进行优化，损失函数一般固定为反映残差的均方差损失函数，因此 当均方差损失函数失效（该损失函数对异常值敏感）的时候，换了其他一般的损失函数，便很难得到优化的结果。同时，因为损失函数的问题，Boosting Tree也很难处理回归之外问题。 而后者使用梯度下降的方法，对于任意可以求导的损失函数它都可以处理
 
