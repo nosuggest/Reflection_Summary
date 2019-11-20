@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/机器学习/集成学习/Xgboost.md" afterPath="$PROJECT_DIR$/机器学习/集成学习/Xgboost.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,32 +37,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="415">
-                <caret line="239" column="47" selection-start-line="239" selection-start-column="47" selection-end-line="239" selection-end-column="47" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GBDT.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/机器学习/集成学习/GBDT.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="720">
-                <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="400">
+                <caret line="241" column="25" selection-start-line="241" selection-start-column="25" selection-end-line="241" selection-end-column="25" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -75,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/机器学习/集成学习/Xgboost.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="495">
-                <caret line="38" column="23" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="23" />
+              <first_editor relative-caret-position="445">
+                <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -137,8 +114,8 @@
         <option value="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" />
         <option value="$PROJECT_DIR$/机器学习/支持向量机/支持向量机.md" />
         <option value="$PROJECT_DIR$/数据预处理/特征提取/数据变换.md" />
-        <option value="$PROJECT_DIR$/机器学习/集成学习/Xgboost.md" />
         <option value="$PROJECT_DIR$/机器学习/集成学习/GBDT.md" />
+        <option value="$PROJECT_DIR$/机器学习/集成学习/Xgboost.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -1409,11 +1386,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/集成学习/Xgboost.md">
+    <entry file="file://$PROJECT_DIR$/机器学习/集成学习/GBDT.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="495">
-            <caret line="38" column="23" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="23" />
+          <first_editor relative-caret-position="-155">
+            <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1431,11 +1408,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/集成学习/GBDT.md">
+    <entry file="file://$PROJECT_DIR$/机器学习/集成学习/Xgboost.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="720">
-            <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+          <first_editor relative-caret-position="445">
+            <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1465,8 +1442,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="415">
-            <caret line="239" column="47" selection-start-line="239" selection-start-column="47" selection-end-line="239" selection-end-column="47" />
+          <first_editor relative-caret-position="400">
+            <caret line="241" column="25" selection-start-line="241" selection-start-column="25" selection-end-line="241" selection-end-column="25" />
             <folding />
           </first_editor>
           <second_editor>
