@@ -12,5 +12,5 @@
 - 直方图做差加速
 
 # LightGBM亮点
-- 单边梯度采样 Gradient-based One-Side Sampling (GOSS)：排除**大部分**小梯度的样本，仅用剩下的样本计算信息增益
+- 单边梯度采样 Gradient-based One-Side Sampling (GOSS)：排除**大部分**小梯度的样本，仅用剩下的样本计算损失增益
 - 互斥稀疏特征绑定Exclusive Feature Bundling (EFB)：从减少特征角度，把尽可能互斥的特征进行合并，比如特征A\[0,10],特征B\[0,20],可以把B+10后与A合并，得到新特征A+B\[0,30]
