@@ -232,6 +232,12 @@
     - [gbdt的优缺点](机器学习/集成学习/GBDT.md#L164)
     - [gbdt和randomforest区别](机器学习/集成学习/GBDT.md#L164)
     - [GBDT和LR的差异](机器学习/集成学习/GBDT.md#L164)
+    - [xgboost对比gbdt/boosting Tree有了哪些方向上的优化](机器学习/集成学习/xgboost.md#L164)
+    - [xgboost优化目标/损失函数改变成什么样](机器学习/集成学习/xgboost.md#L164)
+    - [xgboost如何使用MAE或MAPE作为目标函数](机器学习/集成学习/xgboost.md#L164)
+    - [xgboost如何寻找分裂节点的候选集](机器学习/集成学习/xgboost.md#L164)
+    - [xgboost如何处理缺失值](机器学习/集成学习/xgboost.md#L164)
+    - [xgboost在计算速度上有了哪些点上提升](机器学习/集成学习/xgboost.md#L164)
 - FM/FFM
 - SVM
     - [简单介绍SVM](机器学习/支持向量机/支持向量机.md#L164)
