@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/机器学习/集成学习/GBDT.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据预处理/特征提取/数据变换.md" afterPath="$PROJECT_DIR$/数据预处理/特征提取/数据变换.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/机器学习/集成学习/GBDT.md" afterPath="$PROJECT_DIR$/机器学习/集成学习/GBDT.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +37,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2595">
-                <caret line="216" column="33" selection-start-line="216" selection-start-column="29" selection-end-line="216" selection-end-column="33" />
+              <first_editor relative-caret-position="435">
+                <caret line="234" column="8" selection-start-line="234" selection-start-column="8" selection-end-line="234" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -54,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/机器学习/集成学习/GBDT.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="210">
-                <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <first_editor relative-caret-position="505">
+                <caret line="103" column="2" selection-start-line="103" selection-start-column="2" selection-end-line="103" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -115,9 +113,9 @@
         <option value="$PROJECT_DIR$/机器学习/线性回归/线性回归.md" />
         <option value="$PROJECT_DIR$/机器学习/逻辑回归/lr.md" />
         <option value="$PROJECT_DIR$/机器学习/支持向量机/支持向量机.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/机器学习/集成学习/GBDT.md" />
         <option value="$PROJECT_DIR$/数据预处理/特征提取/数据变换.md" />
+        <option value="$PROJECT_DIR$/机器学习/集成学习/GBDT.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1333,11 +1331,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/集成学习/GBDT.md">
+    <entry file="file://$PROJECT_DIR$/数学/概率密度分布/概率密度分布.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <first_editor relative-caret-position="174">
+            <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1355,11 +1353,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数学/概率密度分布/概率密度分布.md">
+    <entry file="file://$PROJECT_DIR$/机器学习/集成学习/GBDT.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="174">
-            <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <first_editor relative-caret-position="505">
+            <caret line="103" column="2" selection-start-line="103" selection-start-column="2" selection-end-line="103" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1389,8 +1387,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2595">
-            <caret line="216" column="33" selection-start-line="216" selection-start-column="29" selection-end-line="216" selection-end-column="33" />
+          <first_editor relative-caret-position="435">
+            <caret line="234" column="8" selection-start-line="234" selection-start-column="8" selection-end-line="234" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor>
