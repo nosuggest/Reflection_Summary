@@ -240,9 +240,12 @@
     - [xgboost如何处理缺失值](机器学习/集成学习/Xgboost.md#L164)
     - [xgboost在计算速度上有了哪些点上提升](机器学习/集成学习/Xgboost.md#L164)
     - [xgboost特征重要性是如何得到的](机器学习/集成学习/Xgboost.md#L164)
-    - [XGBoost中如何对树进行剪枝](机器学习/集成学习/Xgboost.md#L164)
-    - [XGBoost模型如果过拟合了怎么解决](机器学习/集成学习/Xgboost.md#L164)
+    - [xGBoost中如何对树进行剪枝](机器学习/集成学习/Xgboost.md#L164)
+    - [xGBoost模型如果过拟合了怎么解决](机器学习/集成学习/Xgboost.md#L164)
     - [xgboost如何调参数](机器学习/集成学习/Xgboost.md#L164)
+    - [XGboost缺点](机器学习/集成学习/LightGBM.md#L164)
+    - [LightGBM对Xgboost的优化](机器学习/集成学习/LightGBM.md#L164)
+    - [LightGBM亮点](机器学习/集成学习/LightGBM.md#L164)
 - FM/FFM
 - SVM
     - [简单介绍SVM](机器学习/支持向量机/支持向量机.md#L164)
