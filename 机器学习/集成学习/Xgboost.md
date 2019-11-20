@@ -77,3 +77,9 @@ MAPE:![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94mx7uyuej303f0170sj.jpg)
     - 增大惩罚系数
 - subsample的力度变大，降低异常点的影响
 - 减小learning rate，提高estimator
+
+# xgboost如何调参数？
+- 先确定learningrate和estimator
+- 再确定每棵树的基本信息，max_depth和 min_child_weight
+- 再确定全局信息：比如最小分裂增益，子采样参数，正则参数
+- 重新降低learningrate，得到最优解

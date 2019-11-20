@@ -242,6 +242,7 @@
     - [xgboost特征重要性是如何得到的](机器学习/集成学习/Xgboost.md#L164)
     - [XGBoost中如何对树进行剪枝](机器学习/集成学习/Xgboost.md#L164)
     - [XGBoost模型如果过拟合了怎么解决](机器学习/集成学习/Xgboost.md#L164)
+    - [xgboost如何调参数](机器学习/集成学习/Xgboost.md#L164)
 - FM/FFM
 - SVM
     - [简单介绍SVM](机器学习/支持向量机/支持向量机.md#L164)
