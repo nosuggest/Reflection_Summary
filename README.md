@@ -282,11 +282,16 @@
 - embedding
 - softmax
 - 梯度消失/爆炸
-
+- Attention
+    - [Attention对比RNN和CNN，分别有哪点你觉得的优势](深度学习/Attention.md#L164)
+    - [写出Attention的公式](深度学习/Attention.md#L164)
+    - [解释你怎么理解Attention的公式的](深度学习/Attention.md#L164)
+    - [Attention模型怎么避免词袋模型的顺序问题的困境的](深度学习/Attention.md#L164)
+    - [Attention机制，里面的q,k,v分别代表什么](深度学习/Attention.md#L164)
+    - [为什么self-attention可以替代seq2seq](深度学习/Attention.md#L164)
 # 自然语言处理
 - N-Grams
 - LDA
-- Attention
 - LSTM
 - GRU
 - Bert
