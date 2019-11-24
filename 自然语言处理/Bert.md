@@ -1,7 +1,7 @@
 # Bert的双向体现在什么地方？
 mask+attention，mask的word结合全部其他encoder word的信息
 
-# Bert的是怎样预训练的？
+# Bert的是怎样实现mask构造的？
 - MLM：将完整句子中的部分字mask，预测该mask词
 - NSP：为每个训练前的例子选择句子 A 和 B 时，50% 的情况下 B 是真的在 A 后面的下一个句子， 50% 的情况下是来自语料库的随机句子，进行二分预测是否为真实下一句
 
@@ -19,4 +19,32 @@ mask+attention，mask的word结合全部其他encoder word的信息
 - tail-only：保存最后 510 个token
 - head + tail ：选择前128个 token 和最后382个 token（文本在800以内）或者前256个token+后254个token（文本大于800tokens）
 
-# 
+# 你用过什么模块？bert流程是怎么样的？
+- modeling.py
+- 首先定义处理好输入的tokens的对应的id作为input_id,因为不是训练所以input_mask和segment_id都是采取默认的1即可
+- 在通过embedding_lookup把input_id向量化，如果存在句子之间的位置差异则需要对segment_id进行处理，否则无操作；再进行position_embedding操作
+- 进入Transform模块，后循环调用transformer的前向过程，次数为隐藏层个数，每次前向过程都包含self_attention_layer、add_and_norm、feed_forward和add_and_norm四个步骤
+- 输出结果为句向量则取\[cls]对应的向量（需要处理成embedding_size），否则也可以取最后一层的输出作为每个词的向量组合all_encoder_layers\[-1]
+
+# 知道分词模块：FullTokenizer做了哪些事情么？
+- BasicTokenizer：根据空格等进行普通的分词
+    - 包括了一些预处理的方法：去除无意义词，跳过'\t'这些词，unicode变换，中文字符筛选等等
+- WordpieceTokenizer：前者的结果再细粒度的切分为WordPiece
+    - 中文不处理，因为有词缀一说：解决OOV
+
+# Bert中如何获得词意和句意？
+- get_pooled_out代表了涵盖了整条语句的信息
+- get_sentence_out代表了这个获取每个token的output 输出，用的是cls向量
+    
+# 源码中Attention后实际的流程是如何的？
+- Transform模块中：在残差连接之前，对output_layer进行了dense+dropout后再合并input_layer进行的layer_norm得到的attention_output
+- 所有attention_output得到并合并后，也是先进行了全连接，而后再进行了dense+dropout再合并的attention_output之后才进行layer_norm得到最终的layer_output
+
+# 为什么要在Attention后使用残差结构？
+残差结构能够很好的消除层数加深所带来的信息损失问题
+
+# 平时用官方Bert包么？耗时怎么样？
+- 第三方：bert_serving
+- 官方：bert_base
+- 耗时：64GTesla，64max_seq_length，80-90doc/s
+    - 在线预测只能一条一条的入参，实际上在可承受的计算量内batch越大整体的计算性能性价比越高
