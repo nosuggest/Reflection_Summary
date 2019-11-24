@@ -298,10 +298,18 @@
     - [Bert的双向体现在什么地方](自然语言处理/Bert.md#L164)
     - [Bert的是怎样预训练的](自然语言处理/Bert.md#L164)
     - [在数据中随机选择 15% 的标记，其中80%被换位\[mask\]，10%不变、10%随机替换其他单词，原因是什么](自然语言处理/Bert.md#L164)
-    - [elmo、GPT、bert三者之间有什么区别？](自然语言处理/Bert.md#L164)
+    - [为什么BERT有3个嵌入层，它们都是如何实现的](自然语言处理/Bert.md#L164)
+    - [bert的损失函数](自然语言处理/Bert.md#L164)
+    - [手写一个multi-head attention](自然语言处理/Bert.md#L164)
     - [长文本预测如何构造Tokens](自然语言处理/Bert.md#L164)
-    - [读过源码么？能大概讲讲源码么](自然语言处理/Bert.md#L164)
-    - [你平时怎么用Bert](自然语言处理/Bert.md#L164)
+    - [你用过什么模块？bert流程是怎么样的](自然语言处理/Bert.md#L164)
+    - [知道分词模块：FullTokenizer做了哪些事情么](自然语言处理/Bert.md#L164)
+    - [Bert中如何获得词意和句意](自然语言处理/Bert.md#L164)
+    - [源码中Attention后实际的流程是如何的](自然语言处理/Bert.md#L164)
+    - [为什么要在Attention后使用残差结构](自然语言处理/Bert.md#L164)
+    - [平时用官方Bert包么？耗时怎么样](自然语言处理/Bert.md#L164)
+    - [你觉得BERT比普通LM的新颖点](自然语言处理/Bert.md#L164)
+    - [elmo、GPT、bert三者之间有什么区别](自然语言处理/Bert.md#L164)
 - Transfer
 
 # 推荐
