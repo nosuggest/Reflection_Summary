@@ -142,6 +142,10 @@
     - [画一个最简单的最快速能实现的框架](数据预处理/特征提取/数据变换.md#L164)
 
 # 机器学习
+- 聚类
+    - [请问从EM角度理解kmeans](机器学习/聚类/kmeans.md#L164)
+    - [为什么kmeans一定会收敛](机器学习/聚类/kmeans.md#L164)
+    - [kmeans初始点除了随机选取之外的方法](机器学习/聚类/kmeans.md#L164)
 - 线性回归
     - [损失函数是啥](机器学习/线性回归/线性回归.md#L164)
     - [最小二乘/梯度下降手推](机器学习/线性回归/线性回归.md#L164)
@@ -290,7 +294,17 @@
     - [Attention机制，里面的q,k,v分别代表什么](深度学习/Attention.md#L164)
     - [为什么self-attention可以替代seq2seq](深度学习/Attention.md#L164)
 # 自然语言处理
-- N-Grams
+- GloVe
+    - [GolVe的损失函数](自然语言处理/GloVe.md#L164)
+    - [解释GolVe的损失函数](自然语言处理/GloVe.md#L164)
+    - [为什么GolVe会用的相对比W2V少](自然语言处理/GloVe.md#L164)
+- Word2Vec 
+    - [从隐藏层到输出的Softmax层的计算有哪些方法](自然语言处理/Word2Vec.md#L164)
+    - [层次softmax流程](自然语言处理/Word2Vec.md#L164)
+    - [负采样流程](自然语言处理/Word2Vec.md#L164)
+    - [word2vec两种方法各自的优势](自然语言处理/Word2Vec.md#L164)
+    - [怎么衡量学到的embedding的好坏](自然语言处理/Word2Vec.md#L164)
+    - [word2vec和glove区别](自然语言处理/Word2Vec.md#L164)
 - LDA
 - LSTM
 - GRU
@@ -310,7 +324,6 @@
     - [平时用官方Bert包么？耗时怎么样](自然语言处理/Bert.md#L164)
     - [你觉得BERT比普通LM的新颖点](自然语言处理/Bert.md#L164)
     - [elmo、GPT、bert三者之间有什么区别](自然语言处理/Bert.md#L164)
-- Transfer
 
 # 推荐
 - DIN
