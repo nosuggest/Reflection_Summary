@@ -281,7 +281,7 @@
     - [Linear SVM 和 LR 有什么异同](机器学习/支持向量机/支持向量机.md#L164)
 # 深度学习
 - dropout
-- batchnormalization
+- batch_normalization
 - bp过程
 - embedding
 - softmax
@@ -305,6 +305,7 @@
     - [word2vec两种方法各自的优势](自然语言处理/Word2Vec.md#L164)
     - [怎么衡量学到的embedding的好坏](自然语言处理/Word2Vec.md#L164)
     - [word2vec和glove区别](自然语言处理/Word2Vec.md#L164)
+- CRF
 - LDA
 - LSTM
 - GRU
