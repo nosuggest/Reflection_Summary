@@ -311,7 +311,12 @@
     - [CRF与HMM区别](自然语言处理/Word2Vec.md#L164)
     - [Bert+crf中的各部分作用详解](自然语言处理/Word2Vec.md#L164)
 - LDA
-    
+    - [详述LDA原理](自然语言处理/LDA.md#L164)
+    - [LDA中的主题矩阵如何计算](自然语言处理/LDA.md#L164)
+    - [LDA的共轭分布解释下](自然语言处理/LDA.md#L164)
+    - [PLSA和LDA的区别](自然语言处理/LDA.md#L164)
+    - [怎么确定LDA的topic个数](自然语言处理/LDA.md#L164)
+    - [LDA和Word2Vec区别？LDA和Doc2Vec区别](自然语言处理/LDA.md#L164)
 - LSTM
 - GRU
 - Bert
