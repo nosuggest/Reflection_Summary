@@ -23,7 +23,7 @@
 - K：指的是key，相当于encoder的内容
 - V：指的是value，相当于encoder的内容
 
-q和k对齐了编码端和解码端的信息相似度，相似度的值进行归一化后会生成对齐概率值（注意力值）。V对应的是encoder的内容，刚说了attention是对encoder对重编码，qk完成权重重新计算，v复制重编码。
+q和k对齐了解码端和编码端的信息相似度，相似度的值进行归一化后会生成对齐概率值（注意力值）。V对应的是encoder的内容，刚说了attention是对encoder对重编码，qk完成权重重新计算，v复制重编码
 
 # 为什么self-attention可以替代seq2seq？
 - seq2seq最大的问题在于将Encoder端的所有信息压缩到一个固定长度的向量中，并将其作为Decoder端首个隐藏状态的输入，来预测Decoder端第一个单词(token)的隐藏状态。在输入序列比较长的时候，这样做显然会损失Encoder端的很多信息，而且这样一股脑的把该固定向量送入Decoder端，Decoder端不能够关注到其想要关注的信息
