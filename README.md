@@ -295,6 +295,7 @@
     - [Attention模型怎么避免词袋模型的顺序问题的困境的](深度学习/Attention.md#L164)
     - [Attention机制，里面的q,k,v分别代表什么](深度学习/Attention.md#L164)
     - [为什么self-attention可以替代seq2seq](深度学习/Attention.md#L164)
+    - [维度与点积大小的关系是怎么样的，为什么使用维度的根号来放缩](深度学习/Attention.md#L164)
 # 自然语言处理
 - GloVe
     - [GolVe的损失函数](自然语言处理/GloVe.md#L164)
@@ -341,7 +342,6 @@
 # 推荐
 - DIN
 - DeepFM
-    - 
 - YoutubeNet
 - Wide&Deep
 - MLR
