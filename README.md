@@ -342,7 +342,24 @@
 # 推荐
 - DIN
 - DeepFM
+    - [DNN与DeepFM之间的区别](推荐/DeepFM.md#L164)
+    - [Wide&Deep与DeepFM之间的区别](推荐/DeepFM.md#L164)
+    - [你在使用deepFM的时候是如何处理欠拟合和过拟合问题的](推荐/DeepFM.md#L164)
+    - [DeepFM怎么优化的](推荐/DeepFM.md#L164)
+    - [不定长文本数据如何输入deepFM](推荐/DeepFM.md#L164)
+    - [deepfm的embedding初始化有什么值得注意的地方吗](推荐/DeepFM.md#L164)
+        - [Xavier初始化](推荐/DeepFM.md#L164)
+        - [He初始化](推荐/DeepFM.md#L164)
 - YoutubeNet
+    - [变长数据如何处理的](推荐/YoutubeNet.md#L164)
+    - [input是怎么构造的](推荐/YoutubeNet.md#L164)
+    - [最后一次点击实际如何处理的](推荐/YoutubeNet.md#L164)
+    - [output的是时候train和predict如何处理的](推荐/YoutubeNet.md#L164)
+    - [如何进行负采样的](推荐/YoutubeNet.md#L164)
+    - [item向量在softmax的时候你们怎么选择的](推荐/YoutubeNet.md#L164)
+    - [Example Age的理解](推荐/YoutubeNet.md#L164)
+    - [什么叫做不对称的共同浏览（asymmetric co-watch）问题](推荐/YoutubeNet.md#L164)
+    - [整个过程中有什么亮点？有哪些决定性的提升](推荐/YoutubeNet.md#L164)
 - Wide&Deep
 - MLR
 - Neural Network全家桶
