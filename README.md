@@ -308,6 +308,7 @@
     - [word2vec两种方法各自的优势](自然语言处理/Word2Vec.md#L164)
     - [怎么衡量学到的embedding的好坏](自然语言处理/Word2Vec.md#L164)
     - [word2vec和glove区别](自然语言处理/Word2Vec.md#L164)
+    - [你觉得word2vec有哪些问题](自然语言处理/Word2Vec.md#L164)
 - CRF
     - [阐述CRF原理](自然语言处理/Word2Vec.md#L164)
     - [线性链条件随机场的公式是](自然语言处理/Word2Vec.md#L164)
@@ -363,7 +364,8 @@
 - Wide&Deep
 - MLR
 - Neural Network全家桶
-
+- XDeepFM
+    - [整个过程中有什么亮点？有哪些决定性的提升](推荐/XDeepFM.md#L164)
 # 风控
 - 孤立森林
 - 评分卡
