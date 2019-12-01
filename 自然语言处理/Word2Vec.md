@@ -30,3 +30,9 @@
     - word2vec利用了负采样或者层次softmax加速，相对更快
     - glove用了全局共现矩阵，更占内存资源
 - word2vec是“predictive”的模型，而GloVe是“count-based”的模型
+
+# 你觉得word2vec有哪些问题？
+- 没考虑词序
+- 对于中文依赖分词结果的好坏
+- 新生词无法友好处理
+- 无正则化处理
