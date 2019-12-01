@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
-      <change beforePath="" afterPath="$PROJECT_DIR$/推荐/XDeepFM.md" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/推荐/XDeepFM.md" afterPath="$PROJECT_DIR$/推荐/XDeepFM.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,12 +23,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="675">
-                <caret line="367" column="39" lean-forward="false" selection-start-line="367" selection-start-column="39" selection-end-line="367" selection-end-column="39" />
+              <first_editor relative-caret-position="702">
+                <caret line="368" column="39" lean-forward="false" selection-start-line="368" selection-start-column="39" selection-end-line="368" selection-end-column="39" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -36,12 +36,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XDeepFM.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XDeepFM.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/推荐/XDeepFM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <first_editor relative-caret-position="162">
+                <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="34" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -100,8 +100,8 @@
         <option value="$PROJECT_DIR$/推荐/YouTubeNext.md" />
         <option value="$PROJECT_DIR$/推荐/DeepFM.md" />
         <option value="$PROJECT_DIR$/自然语言处理/Word2Vec.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/推荐/XDeepFM.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -503,7 +503,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23720682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23720682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1062,22 +1062,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/推荐/XDeepFM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="675">
-            <caret line="367" column="39" lean-forward="false" selection-start-line="367" selection-start-column="39" selection-end-line="367" selection-end-column="39" />
+          <first_editor relative-caret-position="162">
+            <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="34" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/推荐/XDeepFM.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <first_editor relative-caret-position="702">
+            <caret line="368" column="39" lean-forward="false" selection-start-line="368" selection-start-column="39" selection-end-line="368" selection-end-column="39" />
             <folding />
           </first_editor>
           <second_editor />
