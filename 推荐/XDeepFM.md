@@ -32,3 +32,12 @@
         - 将若干轮的处理结果按照hidden_size维进行合并，并对embedding维度进行pooling得到\[batch,embedding]的output层即为结果
         - 实际过程中，可以对每层对结果进行采样泛化；可以通过最后层输出的残差连接保证梯度消失等等
 
+# 和DCN比，有哪些核心的变化？
+- DCN是bit-wise的，而CIN 是vector-wise的
+- DCN是1-l+1阶特征，而CIN只包含 l+1 阶的组合特征
+    - ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9ihwd6wucj305q00la9v.jpg) 和 ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9iidr9x2bj306r01lglh.jpg)差异的Xi导致的
+
+# 时间复杂度多少？
+假设CIN和DNN每层神经元/向量个数都为 H ，网络深度为 L
+- CIN:O(m`*`L`*`H`*`H)
+- DNN:O(m`*`D`*`H+L`*`H`*`H)

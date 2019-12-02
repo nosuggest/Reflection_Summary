@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/推荐/XDeepFM.md" afterPath="$PROJECT_DIR$/推荐/XDeepFM.md" />
     </list>
@@ -40,8 +39,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="491">
-                <caret line="367" column="23" selection-start-line="367" selection-start-column="23" selection-end-line="367" selection-end-column="23" />
+              <first_editor relative-caret-position="551">
+                <caret line="371" column="14" selection-start-line="371" selection-start-column="14" selection-end-line="371" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -64,8 +63,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="15" column="18" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="18" />
+              <first_editor relative-caret-position="630">
+                <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -124,8 +123,8 @@
         <option value="$PROJECT_DIR$/推荐/YouTubeNext.md" />
         <option value="$PROJECT_DIR$/推荐/DeepFM.md" />
         <option value="$PROJECT_DIR$/自然语言处理/Word2Vec.md" />
-        <option value="$PROJECT_DIR$/推荐/XDeepFM.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/推荐/XDeepFM.md" />
       </list>
     </option>
   </component>
@@ -1104,8 +1103,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" column="18" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="18" />
+          <first_editor relative-caret-position="630">
+            <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1126,8 +1125,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="491">
-            <caret line="367" column="23" selection-start-line="367" selection-start-column="23" selection-end-line="367" selection-end-column="23" />
+          <first_editor relative-caret-position="551">
+            <caret line="371" column="14" selection-start-line="371" selection-start-column="14" selection-end-line="371" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
