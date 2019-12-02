@@ -34,8 +34,8 @@
 
 # 和DCN比，有哪些核心的变化？
 - DCN是bit-wise的，而CIN 是vector-wise的
-- DCN是1-l+1阶特征，而CIN只包含 l+1 阶的组合特征
-    - ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9ihwd6wucj305q00la9v.jpg) 和 ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9iidr9x2bj306r01lglh.jpg)差异的Xi导致的
+- DCN是1～l+1阶特征，而CIN只包含 l+1 阶的组合特征
+    - ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9ihwd6wucj305q00la9v.jpg) 和 ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9iidr9x2bj306r01lglh.jpg)差异的![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9in06u4m6j300j00f0sh.jpg)导致的
 
 # 时间复杂度多少？
 假设CIN和DNN每层神经元/向量个数都为 H ，网络深度为 L
