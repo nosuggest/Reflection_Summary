@@ -365,8 +365,9 @@
 - MLR
 - Neural Network全家桶
 - XDeepFM
-    - [选用的原因](推荐/XDeepFM.md#L164)
+    - [选用的原因，考虑使用的场景是什么](推荐/XDeepFM.md#L164)
     - [什么叫显示隐式？什么叫元素级/向量级？什么叫做高阶/低阶特征交互](推荐/XDeepFM.md#L164)
+    - [简单介绍一下XDeepFm的思想](推荐/XDeepFM.md#L164)
 # 风控
 - 孤立森林
 - 评分卡
