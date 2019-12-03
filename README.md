@@ -315,10 +315,10 @@
     - [word2vec和glove区别](自然语言处理/Word2Vec.md#L164)
     - [你觉得word2vec有哪些问题](自然语言处理/Word2Vec.md#L164)
 - CRF
-    - [阐述CRF原理](自然语言处理/Word2Vec.md#L164)
-    - [线性链条件随机场的公式是](自然语言处理/Word2Vec.md#L164)
-    - [CRF与HMM区别](自然语言处理/Word2Vec.md#L164)
-    - [Bert+crf中的各部分作用详解](自然语言处理/Word2Vec.md#L164)
+    - [阐述CRF原理](自然语言处理/CRF.md#L164)
+    - [线性链条件随机场的公式是](自然语言处理/CRF.md#L164)
+    - [CRF与HMM区别](自然语言处理/CRF.md#L164)
+    - [Bert+crf中的各部分作用详解](自然语言处理/CRF.md#L164)
 - LDA
     - [详述LDA原理](自然语言处理/LDA.md#L164)
     - [LDA中的主题矩阵如何计算](自然语言处理/LDA.md#L164)
