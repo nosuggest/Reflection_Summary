@@ -50,7 +50,14 @@
     - [最大后验估计 - MAP](基础概念/频率概率/频率概率.md#L96)
     - [极大似然估计与最大后验概率的区别](基础概念/频率概率/频率概率.md#L96)
     - [到底什么是似然什么是概率估计](基础概念/频率概率/频率概率.md#L96)
-
+- AutoML
+    - [AutoML问题构成](基础概念/AutoML/AutoML.md#L96)
+    - [特征工程选择思路](基础概念/AutoML/AutoML.md#L96)
+    - [模型相关的选择思路](基础概念/AutoML/AutoML.md#L96)
+    - [常见梯度处理思路](基础概念/AutoML/AutoML.md#L96)
+    - [AutoML参数选择所使用的方法](基础概念/AutoML/AutoML.md#L96)
+    - [讲讲贝叶斯优化如何在automl上应用](基础概念/AutoML/AutoML.md#L96)
+    - [以高斯过程为例，超参搜索的f的最优解求解acquisition function有哪些](基础概念/AutoML/AutoML.md#L96)
 # 数学
 - 数据质量
     - [期望](数学/数据质量/期望、方差、标准差和协方差.md#L1)
@@ -375,6 +382,7 @@
     - [简单介绍一下XDeepFm的思想](推荐/XDeepFM.md#L164)
     - [和DCN比，有哪些核心的变化](推荐/XDeepFM.md#L164)
     - [时间复杂度多少](推荐/XDeepFM.md#L164)
+
 # 风控
 - 孤立森林
 - 评分卡
