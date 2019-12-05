@@ -19,7 +19,7 @@
     - random_search
     - ...
     
-# 常见梯度处理思路？
+# 常见优化算法思路？
 - SGD
 - GD
 - L-BFGS
