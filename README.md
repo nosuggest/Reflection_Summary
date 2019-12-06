@@ -1,19 +1,5 @@
 # Reflection_Summary
 
-我觉得，一个合格的算法工程师，需要掌握：
-- [扎实的数据结构能力](https://github.com/sladesha/LeetCode)
-- [大量的机器学习实操经验](https://github.com/sladesha/machine_learning)
-- [大量的深度学习项目经验](https://github.com/sladesha/deep_learning)
-- 有一个相对精通的语言，比如python    
-    - [靠谱底层机制的理解](https://github.com/sladesha/sladeRode2)
-    - [动手做过一些demo](https://github.com/sladesha/PyTls)
-    - [有一些成功的经验](https://github.com/sladesha/Frcwp)
-    - [贡献过一些开源项目](https://github.com/brennerm/PyTricks)
-- [靠谱的java编码能力](https://github.com/sladesha/sladeRode)
-- [了解java工程](https://github.com/sladesha/sladeRode4)
-- [了解C++](https://github.com/sladesha/sladeRode3)
-- [总结表述沉淀能力](http://www.shataowei.com)
-
 1. 以下内容为我作为面试管的提问，以及陪伴实习生同学@[tcandzq](https://github.com/tcandzq)参加2020届校招面试各类算法问题及个人理解的汇总
 2. 各种解答均为我的理解和看法，一定有存疑和不完善的地方，欢迎大家补充和质疑打脸
 3. 另外，恭喜[tcandzq](https://github.com/tcandzq)收割到腾讯UGC，阿里算法中台，头条广告推荐offer，:clap:
