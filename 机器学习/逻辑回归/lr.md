@@ -1,8 +1,6 @@
 # logistic分布函数和密度函数，手绘大概的图像
 - 分布函数：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93b9whhwuj306z01amwz.jpg)
-    - 图像：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93be0qj86j30io0c2q4k.jpg)
 - 密度函数：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93bdnikzbj306e01pjr8.jpg)
-    - 图像：![](https://tva1.sinaimg.cn/large/006y8mN6gy1g93beecqoaj30i20c63zw.jpg)
 - 其中，μ表示位置参数，γ为形状参数。**logistic分布比正太分布有更长的尾部且波峰更尖锐**
 
 # LR推导，基础5连问

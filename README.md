@@ -58,6 +58,7 @@
     - [AutoML参数选择所使用的方法](基础概念/AutoML/AutoML.md#L96)
     - [讲讲贝叶斯优化如何在automl上应用](基础概念/AutoML/AutoML.md#L96)
     - [以高斯过程为例，超参搜索的f的最优解求解acquisition function有哪些](基础概念/AutoML/AutoML.md#L96)
+    - [高斯过程回归手记](基础概念/AutoML/高斯过程回归/)
     - [AutoSklearn详解手记](基础概念/AutoML/AutoSklearn详解/)
     - [AutoML常规思路手记](基础概念/AutoML/AutoML常规思路/)
 # 数学
