@@ -46,6 +46,8 @@
     - 稳定性：同一组超参数的预测结果在不同轮次不一致
     - f函数需要多次计算，资源耗费时间损失
     - 难以确定比较通用的拟合模型f
+- 手记：
+    - ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9n45r6f3nj30q40tkjz8.jpg)
 
 # 以高斯过程为例，超参搜索的f的最优解求解acquisition function有哪些？
 - 随机生成若干超参点，更新gp模型
