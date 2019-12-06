@@ -58,6 +58,7 @@
     - [AutoML参数选择所使用的方法](基础概念/AutoML/AutoML.md#L96)
     - [讲讲贝叶斯优化如何在automl上应用](基础概念/AutoML/AutoML.md#L96)
     - [以高斯过程为例，超参搜索的f的最优解求解acquisition function有哪些](基础概念/AutoML/AutoML.md#L96)
+    - [AutoSklearn详解](基础概念/AutoML/AutoSklearn详解/)
 # 数学
 - 数据质量
     - [期望](数学/数据质量/期望、方差、标准差和协方差.md#L1)
