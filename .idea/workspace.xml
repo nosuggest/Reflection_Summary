@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/基础概念/AutoML/AutoSklearn详解/AuotoSklearn详解.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/基础概念/AutoML/AutoML常规思路/AutoML常规思路.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -40,8 +40,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="375">
-                <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+              <first_editor relative-caret-position="495">
+                <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -278,6 +278,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/基础概念/AutoML/AutoML常规思路" />
       <recent name="$PROJECT_DIR$/基础概念/AutoML/AutoSklearn详解" />
       <recent name="$PROJECT_DIR$/对外技术分享" />
       <recent name="$PROJECT_DIR$/数据预处理/特征提取" />
@@ -1191,8 +1192,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+          <first_editor relative-caret-position="495">
+            <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
             <folding />
           </first_editor>
           <second_editor />
