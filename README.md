@@ -1,22 +1,9 @@
 # Reflection_Summary
 
-我觉得，一个合格的算法工程师，需要掌握：
-- [扎实的数据结构能力](https://github.com/sladesha/LeetCode)
-- [大量的机器学习实操经验](https://github.com/sladesha/machine_learning)
-- [大量的深度学习项目经验](https://github.com/sladesha/deep_learning)
-- 有一个相对精通的语言，比如python    
-    - [靠谱底层机制的理解](https://github.com/sladesha/sladeRode2)
-    - [动手做过一些demo](https://github.com/sladesha/PyTls)
-    - [有一些成功的经验](https://github.com/sladesha/Frcwp)
-    - [贡献过一些开源项目](https://github.com/brennerm/PyTricks)
-- [靠谱的java编码能力](https://github.com/sladesha/sladeRode)
-- [了解java工程](https://github.com/sladesha/sladeRode4)
-- [了解C++](https://github.com/sladesha/sladeRode3)
-- [总结表述沉淀能力](http://www.shataowei.com)
-
 1. 以下内容为我作为面试管的提问，以及陪伴实习生同学@[tcandzq](https://github.com/tcandzq)参加2020届校招面试各类算法问题及个人理解的汇总
 2. 各种解答均为我的理解和看法，一定有存疑和不完善的地方，欢迎大家补充和质疑打脸
 3. 另外，恭喜[tcandzq](https://github.com/tcandzq)收割到腾讯UGC，阿里算法中台，头条广告推荐offer，:clap:
+4. 部分内容为**手记**pdf内容，因为公式实在太多，手写比较快，笔记潦草，见谅
 
 ***
 # 基础概念
@@ -50,7 +37,17 @@
     - [最大后验估计 - MAP](基础概念/频率概率/频率概率.md#L96)
     - [极大似然估计与最大后验概率的区别](基础概念/频率概率/频率概率.md#L96)
     - [到底什么是似然什么是概率估计](基础概念/频率概率/频率概率.md#L96)
-
+- AutoML
+    - [AutoML问题构成](基础概念/AutoML/AutoML.md#L96)
+    - [特征工程选择思路](基础概念/AutoML/AutoML.md#L96)
+    - [模型相关的选择思路](基础概念/AutoML/AutoML.md#L96)
+    - [常见梯度处理思路](基础概念/AutoML/AutoML.md#L96)
+    - [AutoML参数选择所使用的方法](基础概念/AutoML/AutoML.md#L96)
+    - [讲讲贝叶斯优化如何在automl上应用](基础概念/AutoML/AutoML.md#L96)
+    - [以高斯过程为例，超参搜索的f的最优解求解acquisition function有哪些](基础概念/AutoML/AutoML.md#L96)
+    - [高斯过程回归手记](基础概念/AutoML/高斯过程回归/)
+    - [AutoSklearn详解手记](基础概念/AutoML/AutoSklearn详解/)
+    - [AutoML常规思路手记](基础概念/AutoML/AutoML常规思路/)
 # 数学
 - 数据质量
     - [期望](数学/数据质量/期望、方差、标准差和协方差.md#L1)
@@ -62,6 +59,8 @@
     - [辗转相除法](数学/最大公约数问题/gcd.md#L1)
     - [其他方法](数学/最大公约数问题/gcd.md#L1)
 - 牛顿法
+    - [迭代公式推导](数学/牛顿法/牛顿迭代法求平方根.md#L1)
+    - [实现它](数学/牛顿法/牛顿迭代法求平方根.md#L1)
 - 拟牛顿法
 - 概率密度分布
     - [均匀分布](数学/概率密度分布/概率密度分布.md#L1)
@@ -142,12 +141,25 @@
     - [画一个最简单的最快速能实现的框架](数据预处理/特征提取/数据变换.md#L164)
 
 # 机器学习
+- 聚类
+    - [请问从EM角度理解kmeans](机器学习/聚类/kmeans.md#L164)
+    - [为什么kmeans一定会收敛](机器学习/聚类/kmeans.md#L164)
+    - [kmeans初始点除了随机选取之外的方法](机器学习/聚类/kmeans.md#L164)
+- 线性回归
+    - [损失函数是啥](机器学习/线性回归/线性回归.md#L164)
+    - [最小二乘/梯度下降手推](机器学习/线性回归/线性回归.md#L164)
+    - [介绍一下岭回归](机器学习/线性回归/线性回归.md#L164)
+    - [什么时候使用岭回归](机器学习/线性回归/线性回归.md#L164)
+    - [什么时候用Lasso回归](机器学习/线性回归/线性回归.md#L164)
 - 逻辑回归
+    - [logistic分布函数和密度函数，手绘大概的图像](机器学习/逻辑回归/lr.md#L164)
     - [LR推导，基础5连问](机器学习/逻辑回归/lr.md#L164)
+    - [梯度下降如何并行化](机器学习/逻辑回归/lr.md#L164)
     - [LR明明是分类模型为什么叫回归](机器学习/逻辑回归/lr.md#L164)
     - [为什么LR可以用来做CTR预估](机器学习/逻辑回归/lr.md#L164)
     - [满足什么样条件的数据用LR最好](机器学习/逻辑回归/lr.md#L164)
     - [LR为什么使用sigmoid函数作为激活函数？其他函数不行吗](机器学习/逻辑回归/lr.md#L164)
+    - [利用几率odds的意义在哪](机器学习/逻辑回归/lr.md#L164)
     - [Sigmoid函数到底起了什么作用](机器学习/逻辑回归/lr.md#L164)
     - [LR为什么要使用极大似然函数，交互熵作为损失函数？那为什么不选平方损失函数的呢](机器学习/逻辑回归/lr.md#L164)
     - [LR中若标签为+1和-1，损失函数如何推导？](机器学习/逻辑回归/lr.md#L164)
@@ -204,35 +216,162 @@
     - [是否用过随机森林，有什么技巧](机器学习/随机森林/随机森林.md#L164)
     - [RF的参数有哪些，如何调参](机器学习/随机森林/随机森林.md#L164)
     - [RF的优缺点](机器学习/随机森林/随机森林.md#L164)
-- GBDT
+- 集成学习
+    - [介绍一下Boosting的思想](机器学习/集成学习/GBDT.md#L164)
+    - [最小二乘回归树的切分过程是怎么样的](机器学习/集成学习/GBDT.md#L164)
+    - [有哪些直接利用了Boosting思想的树模型](机器学习/集成学习/GBDT.md#L164)
+    - [gbdt和boostingtree的boosting分别体现在哪里](机器学习/集成学习/GBDT.md#L164)
+    - [gbdt的中的tree是什么tree？有什么特征](机器学习/集成学习/GBDT.md#L164)
+    - [常用回归问题的损失函数](机器学习/集成学习/GBDT.md#L164)
+    - [常用分类问题的损失函数](机器学习/集成学习/GBDT.md#L164)
+    - [什么是gbdt中的残差的负梯度](机器学习/集成学习/GBDT.md#L164)
+    - [如何用损失函数的负梯度实现gbdt](机器学习/集成学习/GBDT.md#L164)
+    - [拟合损失函数的负梯度为什么是可行的](机器学习/集成学习/GBDT.md#L164)
+    - [即便拟合负梯度是可行的，为什么不直接拟合残差？ 拟合负梯度好在哪里](机器学习/集成学习/GBDT.md#L164)
+    - [Shrinkage收缩的作用](机器学习/集成学习/GBDT.md#L164)
+    - [feature属性会被重复多次使用么](机器学习/集成学习/GBDT.md#L164)
+    - [gbdt如何进行正则化的](机器学习/集成学习/GBDT.md#L164)
+    - [为什么集成算法大多使用树类模型作为基学习器？或者说，为什么集成学习可以在树类模型上取得成功](机器学习/集成学习/GBDT.md#L164)
+    - [gbdt的优缺点](机器学习/集成学习/GBDT.md#L164)
+    - [gbdt和randomforest区别](机器学习/集成学习/GBDT.md#L164)
+    - [GBDT和LR的差异](机器学习/集成学习/GBDT.md#L164)
+    - [xgboost对比gbdt/boosting Tree有了哪些方向上的优化](机器学习/集成学习/Xgboost.md#L164)
+    - [xgboost和gbdt的区别](机器学习/集成学习/Xgboost.md#L164)
+    - [xgboost优化目标/损失函数改变成什么样](机器学习/集成学习/Xgboost.md#L164)
+    - [xgboost如何使用MAE或MAPE作为目标函数](机器学习/集成学习/Xgboost.md#L164)
+    - [xgboost如何寻找分裂节点的候选集](机器学习/集成学习/Xgboost.md#L164)
+    - [xgboost如何处理缺失值](机器学习/集成学习/Xgboost.md#L164)
+    - [xgboost在计算速度上有了哪些点上提升](机器学习/集成学习/Xgboost.md#L164)
+    - [xgboost特征重要性是如何得到的](机器学习/集成学习/Xgboost.md#L164)
+    - [xGBoost中如何对树进行剪枝](机器学习/集成学习/Xgboost.md#L164)
+    - [xGBoost模型如果过拟合了怎么解决](机器学习/集成学习/Xgboost.md#L164)
+    - [xgboost如何调参数](机器学习/集成学习/Xgboost.md#L164)
+    - [XGboost缺点](机器学习/集成学习/LightGBM.md#L164)
+    - [LightGBM对Xgboost的优化](机器学习/集成学习/LightGBM.md#L164)
+    - [LightGBM亮点](机器学习/集成学习/LightGBM.md#L164)
 - FM/FFM
 - SVM
-
+    - [简单介绍SVM](机器学习/支持向量机/支持向量机.md#L164)
+    - [什么叫最优超平面](机器学习/支持向量机/支持向量机.md#L164)
+    - [什么是支持向量](机器学习/支持向量机/支持向量机.md#L164)
+    - [SVM 和全部数据有关还是和局部数据有关](机器学习/支持向量机/支持向量机.md#L164)
+    - [加大训练数据量一定能提高SVM准确率吗](机器学习/支持向量机/支持向量机.md#L164)
+    - [如何解决多分类问题](机器学习/支持向量机/支持向量机.md#L164)
+    - [可以做回归吗，怎么做](机器学习/支持向量机/支持向量机.md#L164)
+    - [SVM 能解决哪些问题](机器学习/支持向量机/支持向量机.md#L164)
+    - [介绍一下你知道的不同的SVM分类器](机器学习/支持向量机/支持向量机.md#L164)
+    - [什么叫软间隔](机器学习/支持向量机/支持向量机.md#L164)
+    - [SVM 软间隔与硬间隔表达式](机器学习/支持向量机/支持向量机.md#L164)
+    - [SVM原问题和对偶问题的关系/解释原问题和对偶问题](机器学习/支持向量机/支持向量机.md#L164)
+    - [为什么要把原问题转换为对偶问题](机器学习/支持向量机/支持向量机.md#L164)
+    - [为什么求解对偶问题更加高效](机器学习/支持向量机/支持向量机.md#L164)
+    - [alpha系数有多少个](机器学习/支持向量机/支持向量机.md#L164)
+    - [KKT限制条件，KKT条件有哪些，完整描述](机器学习/支持向量机/支持向量机.md#L164)
+    - [引入拉格朗日的优化方法后的损失函数解释](机器学习/支持向量机/支持向量机.md#L164)
+    - [核函数的作用是啥](机器学习/支持向量机/支持向量机.md#L164)
+    - [核函数的种类和应用场景](机器学习/支持向量机/支持向量机.md#L164)
+    - [如何选择核函数](机器学习/支持向量机/支持向量机.md#L164)
+    - [常用核函数的定义](机器学习/支持向量机/支持向量机.md#L164)
+    - [核函数需要满足什么条件](机器学习/支持向量机/支持向量机.md#L164)
+    - [为什么在数据量大的情况下常常用lr代替核SVM](机器学习/支持向量机/支持向量机.md#L164)
+    - [高斯核可以升到多少维？为什么](机器学习/支持向量机/支持向量机.md#L164)
+    - [SVM和逻辑斯特回归对同一样本A进行训练，如果某类中增加一些数据点，那么原来的决策边界分别会怎么变化](机器学习/支持向量机/支持向量机.md#L164)
+    - [各种机器学习的应用场景分别是什么？例如，k近邻,贝叶斯，决策树，svm，逻辑斯蒂回归](机器学习/支持向量机/支持向量机.md#L164)
+    - [Linear SVM 和 LR 有什么异同](机器学习/支持向量机/支持向量机.md#L164)
 # 深度学习
 - dropout
-- batchnormalization
+- batch_normalization
 - bp过程
 - embedding
 - softmax
 - 梯度消失/爆炸
-
-# 自然语言处理
-- 朴素贝叶斯
-- N-Grams
-- LDA
+- 残差网络
+    - [介绍残差网络](深度学习/残差网络.md#L164)
+    - [残差网络为什么能解决梯度消失的问题](深度学习/残差网络.md#L164)
+    - [残差网络残差作用](深度学习/残差网络.md#L164)
+    - [你平时有用过么？或者你在哪些地方遇到了](深度学习/残差网络.md#L164)
 - Attention
+    - [Attention对比RNN和CNN，分别有哪点你觉得的优势](深度学习/Attention.md#L164)
+    - [写出Attention的公式](深度学习/Attention.md#L164)
+    - [解释你怎么理解Attention的公式的](深度学习/Attention.md#L164)
+    - [Attention模型怎么避免词袋模型的顺序问题的困境的](深度学习/Attention.md#L164)
+    - [Attention机制，里面的q,k,v分别代表什么](深度学习/Attention.md#L164)
+    - [为什么self-attention可以替代seq2seq](深度学习/Attention.md#L164)
+    - [维度与点积大小的关系是怎么样的，为什么使用维度的根号来放缩](深度学习/Attention.md#L164)
+# 自然语言处理
+- GloVe
+    - [GolVe的损失函数](自然语言处理/GloVe.md#L164)
+    - [解释GolVe的损失函数](自然语言处理/GloVe.md#L164)
+    - [为什么GolVe会用的相对比W2V少](自然语言处理/GloVe.md#L164)
+- Word2Vec 
+    - [从隐藏层到输出的Softmax层的计算有哪些方法](自然语言处理/Word2Vec.md#L164)
+    - [层次softmax流程](自然语言处理/Word2Vec.md#L164)
+    - [负采样流程](自然语言处理/Word2Vec.md#L164)
+    - [word2vec两种方法各自的优势](自然语言处理/Word2Vec.md#L164)
+    - [怎么衡量学到的embedding的好坏](自然语言处理/Word2Vec.md#L164)
+    - [word2vec和glove区别](自然语言处理/Word2Vec.md#L164)
+    - [你觉得word2vec有哪些问题](自然语言处理/Word2Vec.md#L164)
+- CRF
+    - [阐述CRF原理](自然语言处理/CRF.md#L164)
+    - [线性链条件随机场的公式是](自然语言处理/CRF.md#L164)
+    - [CRF与HMM区别](自然语言处理/CRF.md#L164)
+    - [Bert+crf中的各部分作用详解](自然语言处理/CRF.md#L164)
+- LDA
+    - [详述LDA原理](自然语言处理/LDA.md#L164)
+    - [LDA中的主题矩阵如何计算](自然语言处理/LDA.md#L164)
+    - [LDA的共轭分布解释下](自然语言处理/LDA.md#L164)
+    - [PLSA和LDA的区别](自然语言处理/LDA.md#L164)
+    - [怎么确定LDA的topic个数](自然语言处理/LDA.md#L164)
+    - [LDA和Word2Vec区别？LDA和Doc2Vec区别](自然语言处理/LDA.md#L164)
 - LSTM
 - GRU
 - Bert
-- Transfer
+    - [Bert的双向体现在什么地方](自然语言处理/Bert.md#L164)
+    - [Bert的是怎样预训练的](自然语言处理/Bert.md#L164)
+    - [在数据中随机选择 15% 的标记，其中80%被换位\[mask\]，10%不变、10%随机替换其他单词，原因是什么](自然语言处理/Bert.md#L164)
+    - [为什么BERT有3个嵌入层，它们都是如何实现的](自然语言处理/Bert.md#L164)
+    - [bert的损失函数](自然语言处理/Bert.md#L164)
+    - [手写一个multi-head attention](自然语言处理/Bert.md#L164)
+    - [长文本预测如何构造Tokens](自然语言处理/Bert.md#L164)
+    - [你用过什么模块？bert流程是怎么样的](自然语言处理/Bert.md#L164)
+    - [知道分词模块：FullTokenizer做了哪些事情么](自然语言处理/Bert.md#L164)
+    - [Bert中如何获得词意和句意](自然语言处理/Bert.md#L164)
+    - [源码中Attention后实际的流程是如何的](自然语言处理/Bert.md#L164)
+    - [为什么要在Attention后使用残差结构](自然语言处理/Bert.md#L164)
+    - [平时用官方Bert包么？耗时怎么样](自然语言处理/Bert.md#L164)
+    - [你觉得BERT比普通LM的新颖点](自然语言处理/Bert.md#L164)
+    - [elmo、GPT、bert三者之间有什么区别](自然语言处理/Bert.md#L164)
 
 # 推荐
 - DIN
 - DeepFM
+    - [DNN与DeepFM之间的区别](推荐/DeepFM.md#L164)
+    - [Wide&Deep与DeepFM之间的区别](推荐/DeepFM.md#L164)
+    - [你在使用deepFM的时候是如何处理欠拟合和过拟合问题的](推荐/DeepFM.md#L164)
+    - [DeepFM怎么优化的](推荐/DeepFM.md#L164)
+    - [不定长文本数据如何输入deepFM](推荐/DeepFM.md#L164)
+    - [deepfm的embedding初始化有什么值得注意的地方吗](推荐/DeepFM.md#L164)
+        - [Xavier初始化](推荐/DeepFM.md#L164)
+        - [He初始化](推荐/DeepFM.md#L164)
 - YoutubeNet
+    - [变长数据如何处理的](推荐/YouTubeNet.md#L164)
+    - [input是怎么构造的](推荐/YouTubeNet.md#L164)
+    - [最后一次点击实际如何处理的](推荐/YouTubeNet.md#L164)
+    - [output的是时候train和predict如何处理的](推荐/YouTubeNet.md#L164)
+    - [如何进行负采样的](推荐/YouTubeNet.md#L164)
+    - [item向量在softmax的时候你们怎么选择的](推荐/YouTubeNet.md#L164)
+    - [Example Age的理解](推荐/YouTubeNet.md#L164)
+    - [什么叫做不对称的共同浏览（asymmetric co-watch）问题](推荐/YouTubeNet.md#L164)
+    - [整个过程中有什么亮点？有哪些决定性的提升](推荐/YouTubeNet.md#L164)
 - Wide&Deep
 - MLR
 - Neural Network全家桶
+- XDeepFM
+    - [选用的原因，考虑使用的场景是什么](推荐/XDeepFM.md#L164)
+    - [什么叫显示隐式？什么叫元素级/向量级？什么叫做高阶/低阶特征交互](推荐/XDeepFM.md#L164)
+    - [简单介绍一下XDeepFm的思想](推荐/XDeepFM.md#L164)
+    - [和DCN比，有哪些核心的变化](推荐/XDeepFM.md#L164)
+    - [时间复杂度多少](推荐/XDeepFM.md#L164)
 
 # 风控
 - 孤立森林
