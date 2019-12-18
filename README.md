@@ -344,6 +344,9 @@
 
 # 推荐
 - DIN
+    - [主要使用了什么机制](推荐/DIN.md#L164)
+    - [activation unit的作用](推荐/DIN.md#L164)
+    - [DICE怎么设计的](推荐/DIN.md#L164)
 - DeepFM
     - [DNN与DeepFM之间的区别](推荐/DeepFM.md#L164)
     - [Wide&Deep与DeepFM之间的区别](推荐/DeepFM.md#L164)
