@@ -40,7 +40,7 @@ Cart tree，但是都是回归树
     - 负梯度：y·𝑒𝑥𝑝(−𝑦𝑓(𝑥))
 除了负梯度计算和叶子节点的最佳负梯度拟合的线性搜索，多元GBDT分类和二元GBDT分类以及GBDT回归算法过程相同
 
-# 什么是gbdt中的残差的负梯度？
+# 什么是gbdt中的损失函数的负梯度？
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94afa5h1lj3060017mx0.jpg)
 
 当loss函数为均方误差![](https://tva1.sinaimg.cn/large/006y8mN6gy1g94ajgymkuj303w011jr6.jpg)，gbdt中的残差的负梯度的结果y-H(x)正好与boostingtree的拟合残差一致
