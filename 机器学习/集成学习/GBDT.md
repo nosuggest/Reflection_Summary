@@ -14,8 +14,8 @@
 adaboost，gbdt等等
 
 # gbdt和boostingtree的boosting分别体现在哪里？
-- boostingtree利用基模型学习器，拟合的是当前模型与标签值的残差
-- gbdt利用基模型学习器，拟合的是当前模型与标签值的残差的负梯度
+- boostingtree利用基模型学习器，拟合的是mse（回归）或者指数损失函数（分类）
+- gbdt利用基模型学习器，拟合的是当前模型与标签值的损失函数的负梯度
 
 # gbdt的中的tree是什么tree？有什么特征？
 Cart tree，但是都是回归树
