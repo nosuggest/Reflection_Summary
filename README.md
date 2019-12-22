@@ -366,6 +366,11 @@
     - [item向量在softmax的时候你们怎么选择的](推荐/YouTubeNet.md#L164)
     - [Example Age的理解](推荐/YouTubeNet.md#L164)
     - [什么叫做不对称的共同浏览（asymmetric co-watch）问题](推荐/YouTubeNet.md#L164)
+    - [为什么不采取类似RNN的Sequence model](推荐/YouTubeNet.md#L164)
+    - [YouTube如何避免百万量级的softmax问题的](推荐/YouTubeNet.md#L164)
+    - [serving过程中，YouTube为什么不直接采用训练时的model进行预测，而是采用了一种最近邻搜索的方法](推荐/YouTubeNet.md#L164)
+    - [Youtube的用户对新视频有偏好，那么在模型构建的过程中如何引入这个feature](推荐/YouTubeNet.md#L164)
+    - [在处理测试集的时候，YouTube为什么不采用经典的随机留一法（random holdout），而是一定要把用户最近的一次观看行为作为测试集](推荐/YouTubeNet.md#L164)
     - [整个过程中有什么亮点？有哪些决定性的提升](推荐/YouTubeNet.md#L164)
 - Wide&Deep
 - MLR
