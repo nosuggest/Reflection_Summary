@@ -5,8 +5,8 @@ DNN是DeepFM中的一个部分，DeepFM多一次特征，多一个FM层的二次
 DeepFM对Wide&Deep中的Wide层进行了优化，增加了交叉特征
 
 # 你在使用deepFM的时候是如何处理欠拟合和过拟合问题的？
-- 欠拟合：增加deep部分的层数，增加epoch的轮数，增加learning rate，增加正则化力度
-- 过拟合：在deep层直接增加dropout的率，减少epoch轮数，增加更多的数据，减少正则化力度，shuffle数据
+- 欠拟合：增加deep部分的层数，增加epoch的轮数，增加learning rate，减少正则化力度
+- 过拟合：在deep层直接增加dropout的率，减少epoch轮数，增加更多的数据，增加正则化力度，shuffle数据
 
 # DeepFM怎么优化的？
 - embedding向量可以通过FM初始化 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5bf74e-ad1c-4197-8a1f-ac93566d8aa7" name="Default" comment="init">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/推荐/YouTubeNet.md" afterPath="$PROJECT_DIR$/推荐/YouTubeNet.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/推荐/DeepFM.md" afterPath="$PROJECT_DIR$/推荐/DeepFM.md" />
     </list>
     <ignored path="Reflection_Summary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,12 +47,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YouTubeNet.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/推荐/YouTubeNet.md">
+      <file leaf-file-name="DeepFM.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/推荐/DeepFM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="294">
-                <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -118,7 +117,6 @@
         <option value="$PROJECT_DIR$/自然语言处理/LDA.md" />
         <option value="$PROJECT_DIR$/深度学习/Attention.md" />
         <option value="$PROJECT_DIR$/推荐/YouTubeNext.md" />
-        <option value="$PROJECT_DIR$/推荐/DeepFM.md" />
         <option value="$PROJECT_DIR$/自然语言处理/Word2Vec.md" />
         <option value="$PROJECT_DIR$/推荐/XDeepFM.md" />
         <option value="$PROJECT_DIR$/深度学习/残差网络.md" />
@@ -131,6 +129,7 @@
         <option value="$PROJECT_DIR$/机器学习/集成学习/GBDT.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/推荐/YouTubeNet.md" />
+        <option value="$PROJECT_DIR$/推荐/DeepFM.md" />
       </list>
     </option>
   </component>
@@ -1055,16 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/推荐/DeepFM.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/深度学习/残差网络.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1338,6 +1327,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/推荐/YouTubeNet.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="885">
+            <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1360,11 +1371,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/推荐/YouTubeNet.md">
+    <entry file="file://$PROJECT_DIR$/推荐/DeepFM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="294">
-            <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
             <folding />
           </first_editor>
           <second_editor />
