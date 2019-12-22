@@ -21,7 +21,7 @@
 - predict的时候是进行的all_embedding dot
 
 # 如何进行负采样的？
-- 该次点击时间之前所以的item或者article作为代选集
+- 该次点击时间之前所以的item或者article作为候选集
 - 负采样我们会进行剔除，把该次click下的同时show的样本进行剔除后采样
 - 均衡采样，不会根据其他样本show time进行加权
     - 为了尽可能多的修正全量样本，尽快达到收敛
@@ -40,5 +40,5 @@ item对比nlp问题的时候，上下文信息更适用于文本等固定结果�
 - 共享item embedding vector
 - 加入user feature和cross feature且对feature采取了归一化，归一化方式中均方法+log法对长尾数据有效的标准化了
 - 负样本的选取
-- attention所起到的作用并不是很明显，尝试了传统的DIN中的attention和传统的Transform中的attention，效果一般
+- attention所起到的作用并不是很明显，尝试了传统的Transform中的attention，效果一般
     - 这点其实违反直觉，可能原因是模型对负反馈没有很好的建模
