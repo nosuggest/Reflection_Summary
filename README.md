@@ -281,6 +281,9 @@
 # 深度学习
 - dropout
 - batch_normalization
+    - [你觉得bn过程是什么样的](深度学习/batch_normalization.md#L164)
+    - [手写一下bn过程](深度学习/batch_normalization.md#L164)
+    - [知道LN么？讲讲原理](深度学习/batch_normalization.md#L164)
 - bp过程
 - embedding
 - softmax
