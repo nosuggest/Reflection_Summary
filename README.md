@@ -326,6 +326,7 @@
     - [PLSA和LDA的区别](自然语言处理/LDA.md#L164)
     - [怎么确定LDA的topic个数](自然语言处理/LDA.md#L164)
     - [LDA和Word2Vec区别？LDA和Doc2Vec区别](自然语言处理/LDA.md#L164)
+    - [LDA算法里面Dirichlet分布的两个参数alpha和beta怎样确定？trick?](自然语言处理/LDA.md#L164)
 - LSTM
 - GRU
 - Bert：[实现/使用的代码](https://github.com/sladesha/deep_learning/tree/master/Bert)
