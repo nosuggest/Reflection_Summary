@@ -28,4 +28,4 @@
     - 第二步：用cls预测neg，得到预测prob>0.5的所有neg对应的feature和prob；
     - 第三步：把第二步得到的feature喂给cls，重新train；
     - 第四步：把第二步和第三步迭代几次；
-- 《Training Region-based Object Detectors with Online Hard Example Mining提出，用loss找出hard example，bp的时候只回传这些hard example的weight更新
+- 《Training Region-based Object Detectors with Online Hard Example Mining》提出，用loss找出hard example，bp的时候只回传这些hard example的weight更新
