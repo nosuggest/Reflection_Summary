@@ -385,7 +385,7 @@
     - [简单介绍一下XDeepFm的思想](推荐/XDeepFM.md#L164)
     - [和DCN比，有哪些核心的变化](推荐/XDeepFM.md#L164)
     - [时间复杂度多少](推荐/XDeepFM.md#L164)
-- Recall：[Recall](推荐/Recall.md#L164)
+- Recall
     - [召回层构造loss和精排层的差异？](推荐/Recall.md#L164)
     - [离线评估有什么办法](推荐/Recall.md#L164)
     - [负样本为什么不能用点击未展示](推荐/Recall.md#L164)
