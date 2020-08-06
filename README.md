@@ -1,9 +1,9 @@
 # Reflection_Summary
 
-1. 以下内容为我作为面试管的提问，以及陪伴实习生同学@[tcandzq](https://github.com/tcandzq)参加2020届校招面试各类算法问题及个人理解的汇总
-2. 各种解答均为我的理解和看法，一定有存疑和不完善的地方，欢迎大家补充和质疑打脸
-3. 另外，恭喜[tcandzq](https://github.com/tcandzq)收割到腾讯UGC，阿里算法中台，头条广告推荐offer，:clap:
-4. 部分内容为**手记**pdf内容，因为公式实在太多，手写比较快，笔记潦草，见谅
+1. 以下内容为我作为面试管的提问，以及陪伴实习生同学@[tcandzq](https://github.com/tcandzq)参加2020届校招面试各类算法问题及个人理解的汇总，另外，恭喜[tcandzq](https://github.com/tcandzq)收割到腾讯UGC，阿里算法中台，头条广告推荐offer，:clap:
+2. 部分内容为**手记**pdf内容，因为公式实在太多，手写比较快，笔记潦草，见谅，内容部分会引用第三方的观点，但是一定会结合自己的感受和体会，**一定有存疑和不完善的地方**，欢迎大家补充和质疑打脸
+3. 现在算法工程师的面试以下内容都不会直接提问，而是以项目交流的方式去挖掘在一个问题上的理论理解的深度，建议大家结合实际工作中的case去思考
+4. 另外，打个广告，南京蓝厂nlp/推荐均有坑位，做的方向是资讯的信息流推荐和短/小视频推荐，欢迎勾搭，广告完
 
 ***
 # 基础概念
@@ -327,6 +327,8 @@
     - [怎么确定LDA的topic个数](自然语言处理/LDA.md#L164)
     - [LDA和Word2Vec区别？LDA和Doc2Vec区别](自然语言处理/LDA.md#L164)
     - [LDA算法里面Dirichlet分布的两个参数alpha和beta怎样确定？trick?](自然语言处理/LDA.md#L164)
+    - [使用过LDA，你有什么问题？](自然语言处理/LDA.md#L164)
+    - [你用真实用过吗？对比过效果吗？](自然语言处理/LDA.md#L164)
 - LSTM
 - GRU
 - Bert：[实现/使用的代码](https://github.com/sladesha/deep_learning/tree/master/Bert)
@@ -345,6 +347,8 @@
     - [平时用官方Bert包么？耗时怎么样](自然语言处理/Bert.md#L164)
     - [你觉得BERT比普通LM的新颖点](自然语言处理/Bert.md#L164)
     - [elmo、GPT、bert三者之间有什么区别](自然语言处理/Bert.md#L164)
+- 文本相似度计算
+    - [有哪些常用的方法](自然语言处理/文本相似度计算.md#L164)
 
 # 推荐
 - DIN：[实现/使用的代码](https://github.com/sladesha/deep_learning/tree/master/DeepInterestNetwork)
