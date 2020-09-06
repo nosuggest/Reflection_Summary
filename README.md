@@ -280,6 +280,10 @@
     - [Linear SVM 和 LR 有什么异同](机器学习/支持向量机/支持向量机.md#L164)
 # 深度学习
 - dropout
+    - [dropout如何作用的](深度学习/dropout.md#L164)
+    - [L1为什么在深度学习中不常用](深度学习/dropout.md#L164)
+    - [用贝叶斯机率说明Dropout的原理](深度学习/dropout.md#L164)
+    - [为什么有效](深度学习/dropout.md#L164)
 - batch_normalization
     - [你觉得bn过程是什么样的](深度学习/batch_normalization.md#L164)
     - [手写一下bn过程](深度学习/batch_normalization.md#L164)
