@@ -333,6 +333,9 @@
     - [LDA算法里面Dirichlet分布的两个参数alpha和beta怎样确定？trick?](自然语言处理/LDA.md#L164)
     - [使用过LDA，你有什么问题？](自然语言处理/LDA.md#L164)
     - [你用真实用过吗？对比过效果吗？](自然语言处理/LDA.md#L164)
+    - [超参数\alpha \beta对训练的影响？](自然语言处理/LDA.md#L164)
+    - [LDA你会有哪些常规的预处理步骤](自然语言处理/LDA.md#L164)
+    - [LDA的最大似然不好求的原因？为什么不直接用EM？为什么LDA引入了一堆数学理论？](自然语言处理/LDA.md#L164)
 - LSTM
 - GRU
 - Bert：[实现/使用的代码](https://github.com/sladesha/deep_learning/tree/master/Bert)
