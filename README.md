@@ -356,7 +356,15 @@
     - [elmo、GPT、bert三者之间有什么区别](自然语言处理/Bert.md#L164)
 - 文本相似度计算
     - [有哪些常用的方法](自然语言处理/文本相似度计算.md#L164)
-
+- TextCNN
+    - [讲一下textcnn](自然语言处理/TextCNN.md#L164)
+    - [textCNN中核的作用](自然语言处理/TextCNN.md#L164)
+    - [max-pooling选择的目的](自然语言处理/TextCNN.md#L164)
+    - [textcnn和fasttext区别](自然语言处理/TextCNN.md#L164)
+    - [如果你知道上面说的核心问题，那么有什么解决方案吗？](自然语言处理/TextCNN.md#L164)
+    - [为什么卷积核都不大？且常见都都是奇数？](自然语言处理/TextCNN.md#L164)
+    - [为什么不建议用句长作为核大小](自然语言处理/TextCNN.md#L164)
+    - [padding是不是对最后结果没有影响](自然语言处理/TextCNN.md#L164)
 # 推荐
 - DIN：[实现/使用的代码](https://github.com/sladesha/deep_learning/tree/master/DeepInterestNetwork)
     - [主要使用了什么机制](推荐/DIN.md#L164)
